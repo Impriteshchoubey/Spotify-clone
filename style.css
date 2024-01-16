@@ -1,0 +1,263 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));}
+
+
+body {
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+
+    background-color: white;
+    color: white;
+}
+
+.header{background-color: #000;
+position: relative;
+padding: 0vw 9vw;
+display: flex;
+
+align-items: center;
+gap: 23vw;
+justify-content: space-between;}
+
+.logo img{    width: 11.875vw;
+    height: 5.1vw;
+    margin: 3px 0px 0px;
+cursor: pointer;}
+
+
+
+@media(max-width:700px){
+
+    .nav{display: none;}
+    .mobile-menu{
+   
+        display:flex;
+        margin: 0px;
+    }
+    
+    .mobile-menu button{background-color: black;
+    border: transparent;}
+    .mobile-menu button .m1{
+        width: 23px;
+        background-color:white;
+        height: 0.5px;
+        border-radius: 5px;
+        padding-bottom: 4px;
+      
+        margin:5px 0px 2px 0px;
+      
+    }
+    
+        
+    
+}
+@media(min-width:700px){
+    
+    .nav{
+        font-weight: 700;
+        position: relative;
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-between;
+        gap: 3vw;
+        padding: 2vw 6vw;
+    }
+   .mobile-menu{display: none;}
+}
+
+
+
+
+
+
+
+
+
+.nav .hover{
+    cursor: pointer;
+}
+.nav .hover:hover{
+    color: rgb(20, 241, 20);
+}
+
+
+/* main{background-image: url("/assets/images/OIG.png");
+background-size: cover;
+background-repeat: no-repeat;
+
+width: auto;} */
+
+.hero{
+    width: 100%;
+    min-height:40vw;
+    overflow: hidden;
+    padding: 0px;
+    background-position: center center;
+    background: url(https://www.scdn.co/i/free/bubbles-mobile.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(187, 53, 228) -5%, rgb(0, 218, 252)) rgb(226, 48, 36);
+}
+
+.hero-items{display: flex;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 80vw;
+margin: 0px 11vw;
+}
+
+.phone{display: flex;
+position: absolute;
+z-index: 1;  
+top: 5vw;
+ }
+
+.phone img{ width: 19vw;
+    height: 35vw;}
+
+
+.head1{    display: flex;
+    
+    padding: 0vw 1vw 1vw 0vw;
+    width: 80%;
+    font-weight: 900;
+    font-size: 2.3vw;
+    top: 13vw;
+    left: 29vw;
+    position: relative;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));}
+
+
+
+.head1 h1{font-weight: 600;}
+
+.head1 button{background-color: whitesmoke;
+color: #000;
+width: 13vw;
+border-radius: 98px;
+padding: 0.8vw 0.4vw 0.8vw 0.4vw;
+border: 1px solid wheat;
+box-shadow: 3px black;
+font-weight: 700;
+font-size: 1.2vw;
+position: relative;
+left: -51vw;
+top: 11vw;
+cursor: pointer;
+}
+
+.head1 button:hover{
+    color: rgb(28, 228, 28);
+    background-color:black;
+}
+
+
+.mid-section{color: #000;
+   padding: 5rem  7rem 3rem 7rem;
+ text-align: center;
+ 
+  
+}
+
+
+.mid-section h2{
+    font-size: 46px;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+position: relative;}
+
+@media(min-width:700px){
+
+.features{
+    display: flex;
+    justify-content: space-around   ;
+
+}
+}
+
+
+/* .circle{
+    font-weight: 500;
+    gap: 23px;
+    width: 15vw;
+} */
+
+.circle img{width: 142px;
+height: 142px;
+padding-top: 30px;
+padding-bottom: 1vw;
+background-position: center top;}
+
+
+
+.banner{text-align: center;
+    color: white;
+    font-size: 2vw;
+    height: 30vw;
+    background:linear-gradient(-45deg, rgb(187, 53, 228) -5%, rgb(0, 218, 252)) rgb(226, 48, 36);
+}
+
+.q-sections{color: #000;}
+.q-sections h1{text-align: center;
+padding-top: 4vw;
+font-size: 46px;
+margin-bottom: 4vw;}
+
+.questions{display: flex;
+    margin-left: 15vw;
+justify-content: space-between;
+width: 70vw;    
+font-size: 22px;
+font-weight: 700;
+box-sizing: border-box;
+padding: 1vw 2vw 2vw 2vw;
+border-bottom: solid rgba(92, 92, 92, 0.12) 0.5px;
+
+
+}
+
+.questions:hover{
+    background-color: rgb(215, 213, 213);
+}
+
+
+.banner2{color: white;
+height: 30vw;
+
+position: relative;
+
+
+margin-top: 50px;
+
+background: url(https://www.scdn.co/i/free/bubbles-mobile.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(187, 53, 228) -5%, rgb(0, 218, 252)) rgb(226, 48, 36);
+
+}
+.banner2 h1{
+    padding-top: 10vw;
+    margin-left: 29vw;
+    font-size: 5vw;
+}
+.banner2 button{background-color: whitesmoke;
+    color: #000;
+    width: 15vw;
+    margin-top: 0px;
+    border-radius: 98px;
+    
+    height:3vw;
+   
+    border: 1px solid wheat;
+    box-shadow: 3px black;
+    font-weight: 700;
+    font-size: 1.3vw;
+    top: 3vw;
+    position:relative;
+    right: -42vw;
+    cursor: pointer;
+    
+   }
+
+    .banner2 button:hover{  color: rgb(28, 228, 28);
+        background-color:black;}
